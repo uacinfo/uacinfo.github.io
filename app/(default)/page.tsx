@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Simple',
-  description: 'Page description',
+  title: 'UAC Home',
+  description: 'UAC Software Consultation',
 }
 
 import Hero from '@/components/hero'
