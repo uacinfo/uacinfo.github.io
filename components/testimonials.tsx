@@ -27,7 +27,7 @@ export default function Testimonials() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 mb-4">Trusted by over 20,000 companies all over the world</h2>
+            <h2 className="h2 mb-4">Trusted by over 2,00 companies all over the world</h2>
             {/* <p className="text-xl text-gray-600" data-aos="zoom-y-out">Here are some example testimonials you can consider using on your website. You can customize them to fit the specific experiences and feedback from your clients.</p> */}
           </div>
 
