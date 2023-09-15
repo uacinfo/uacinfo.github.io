@@ -31,8 +31,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">DevOps/SRE Consultation</h4>
+              <p className="text-gray-600 text-center">Instrumentation, Metirc Design, Chaos Engineering, Obseravbility</p>
             </div>
 
             {/* 2nd item */}
@@ -47,8 +47,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Web Application Development</h4>
+              <p className="text-gray-600 text-center">HTML5, CSS, ReactJS, Angular, NodeJs, Spring, Django, Flask, Akka, Ruby</p>
             </div>
 
             {/* 3rd item */}
@@ -64,8 +64,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Maintanace and Support</h4>
+              <p className="text-gray-600 text-center">Unit Testing, Functional Testing, Automations</p>
             </div>
 
             {/* 4th item */}
@@ -81,8 +81,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Ecommere Solutions</h4>
+              <p className="text-gray-600 text-center">Shopify, Magento</p>
             </div>
 
             {/* 5th item */}
@@ -97,8 +97,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Integration Solutions</h4>
+              <p className="text-gray-600 text-center">Dell Boomi, MuleSoft, TIBCO</p>
             </div>
 
             {/* 6th item */}
@@ -112,8 +112,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Mobile Applications</h4>
+              <p className="text-gray-600 text-center">Android, iOS, WearOS</p>
             </div>
 
           </div>
