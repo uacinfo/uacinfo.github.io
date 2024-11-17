@@ -81,7 +81,7 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Ecommere Solutions</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">E-commerce Solutions</h4>
               <p className="text-gray-600 text-center">Shopify, Magento</p>
             </div>
 
