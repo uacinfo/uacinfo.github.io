@@ -14,7 +14,7 @@ export default function Footer() {
               <Logo />
             </div>
             <div className="text-sm text-gray-600">
-              <a href="#0" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms</a> · <a href="#0" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Privacy Policy</a>
+            <a href="/docs/uac_vet_scholar_tos.pdf" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out" target="_blank" rel="noopener noreferrer">Terms</a> · <a href="/docs/uac_vet_scholar_privacy_policy.pdf" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
             </div>
           </div>
 
@@ -23,19 +23,19 @@ export default function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Products</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Vet Scholar</a>
+                <a href="/vetscholar" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Vet Scholar</a>
               </li>
-              <li className="mb-2">
+              {/* <li className="mb-2">
                 <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">PDF to Text</a>
               </li>
               <li className="mb-2">
                 <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">NER and Sentiment Analysis</a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
           {/* 3rd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
             <ul className="text-sm">
               <li className="mb-2">
@@ -54,16 +54,16 @@ export default function Footer() {
                 <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Partners</a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* 4th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-gray-800 font-medium mb-2">Company</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Home</a>
+                <a href="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Home</a>
               </li>
-              <li className="mb-2">
+              {/* <li className="mb-2">
                 <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">About us</a>
               </li>
               <li className="mb-2">
@@ -71,9 +71,9 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Pricing</a>
-              </li>
+              </li> */}
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</a>
+                <a href="/docs/uac_vet_scholar_privacy_policy.pdf" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
               </li>
             </ul>
           </div>
