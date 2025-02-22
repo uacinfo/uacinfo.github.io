@@ -14,7 +14,7 @@ export default function Footer() {
               <Logo />
             </div>
             <div className="text-sm text-gray-600">
-            <a href="/docs/uac_vet_scholar_tos.pdf" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out" target="_blank" rel="noopener noreferrer">Terms</a> · <a href="/docs/uac_vet_scholar_privacy_policy.pdf" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+            <a href="/tos" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out" target="_blank" rel="noopener noreferrer">Terms</a> · <a href="/privacy_policy" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
             </div>
           </div>
 
@@ -73,7 +73,7 @@ export default function Footer() {
                 <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Pricing</a>
               </li> */}
               <li className="mb-2">
-                <a href="/docs/uac_vet_scholar_privacy_policy.pdf" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                <a href="/privacy_policy" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
               </li>
             </ul>
           </div>
