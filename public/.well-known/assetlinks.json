@@ -1,0 +1,15 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls",
+            "delegate_permission/common.get_login_creds"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.uacinfo.vetScholar",
+            "sha256_cert_fingerprints": [
+                "75:07:9F:84:9A:FA:2E:E6:5F:CC:49:AE:E0:45:52:8D:BF:68:7D:7A:10:43:1E:85:A1:66:71:92:D5:18:29:EA"
+            ]
+        }
+    }
+]
