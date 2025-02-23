@@ -13,10 +13,12 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Features />
+      {/* <Features /> */}
       <FeaturesBlocks />
-      <Testimonials />
-      <Newsletter />
+      {/* <Testimonials /> */}
+      <div className="bg-gray-100 py-12">
+        <Newsletter />
+      </div>
     </>
   )
 }
