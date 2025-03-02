@@ -75,6 +75,9 @@ export default function Footer() {
               <li className="mb-2">
                 <a href="/privacy_policy" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
               </li>
+              <li className="mb-2">
+                <a href="/manage_account" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out" target="_blank" rel="noopener noreferrer">Manage Account</a>
+              </li>
             </ul>
           </div>
 
