@@ -85,6 +85,9 @@ export default function Footer() {
                 </Link>
               </li>
               <li className="mb-2">
+                <a href="/tos" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out" target="_blank" rel="noopener noreferrer">Terms of Service</a>
+              </li>
+              <li className="mb-2">
                 <Link
                   href="/manage_account"
                   className="text-gray-600 hover:text-primary-600 transition duration-150 ease-in-out"
@@ -93,9 +96,6 @@ export default function Footer() {
                 >
                   Manage Account
                 </Link>
-              </li>
-              <li className="mb-2">
-                <a href="/manage_account" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out" target="_blank" rel="noopener noreferrer">Manage Account</a>
               </li>
             </ul>
           </div>
