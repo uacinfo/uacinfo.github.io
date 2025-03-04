@@ -3,10 +3,11 @@ export default function Newsletter() {
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
-
           {/* CTA box */}
-          <div className="relative bg-gray-900 rounded py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden" data-aos="zoom-y-out">
-
+          <div
+            className="relative bg-gradient-to-r from-primary-600 to-primary-800 rounded-2xl py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden"
+            data-aos="zoom-y-out"
+          >
             {/* Background illustration */}
             <div className="absolute right-0 bottom-0 pointer-events-none hidden lg:block" aria-hidden="true">
               <svg width="428" height="328" xmlns="http://www.w3.org/2000/svg">
@@ -34,30 +35,43 @@ export default function Newsletter() {
             </div>
 
             <div className="relative flex flex-col lg:flex-row justify-between items-center">
-
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
-                <h3 className="h3 text-white mb-2">Need Consultation?</h3>
-                <p className="text-gray-300 text-lg mb-6">Contact us at <a href="mailto:sales@uacinfo.com"></a>sales@uacinfo.com</p>
+                <h3 className="h3 text-white mb-2 text-3xl font-bold">Ready to Transform Your Business?</h3>
+                <p className="text-white text-lg mb-6">
+                  Contact us at{" "}
+                  <a href="mailto:sales@uacinfo.com" className="underline">
+                    sales@uacinfo.com
+                  </a>{" "}
+                  for a free consultation
+                </p>
 
                 {/* CTA form */}
                 <form className="w-full lg:w-auto">
-                  {/* <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
-                    <input type="email" className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500" placeholder="Your email…" aria-label="Your email…" />
-                    <a className="btn text-white bg-blue-600 hover:bg-blue-700 shadow" href="#0">Subscribe</a>
-                  </div> */}
-                  {/* Success message */}
-                  {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
-                  {/* <p className="text-sm text-gray-400 mt-3">No spam. You can unsubscribe at any time.</p> */}
+                  <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
+                    <input
+                      type="email"
+                      className="form-input w-full appearance-none bg-white border border-gray-300 focus:border-primary-300 rounded-l-sm px-4 py-3 mb-2 sm:mb-0 text-gray-800 placeholder-gray-500"
+                      placeholder="Your email…"
+                      aria-label="Your email…"
+                    />
+                    <button
+                      className="btn text-white bg-primary-900 hover:bg-primary-800 shadow rounded-r-sm"
+                      type="submit"
+                    >
+                      Subscribe
+                    </button>
+                  </div>
+                  <p className="text-sm text-white opacity-75 mt-3">
+                    We respect your privacy. Unsubscribe at any time.
+                  </p>
                 </form>
               </div>
-
             </div>
-
           </div>
-
         </div>
       </div>
     </section>
   )
 }
+
