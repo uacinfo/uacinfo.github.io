@@ -52,7 +52,7 @@ export default function Hero() {
                 >
                   <div>
                     <Link
-                      href="#"
+                      href="https://play.google.com/store/apps/details?id=com.uacinfo.vetScholar"
                       className="btn text-white bg-primary-600 hover:bg-primary-700 w-full mb-4 sm:w-auto sm:mb-0"
                     >
                       Download App
