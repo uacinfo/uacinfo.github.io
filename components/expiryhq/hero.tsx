@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import HeroScreenshot from "@/public/images/expiryhq/hero-screenshot.png"
+import LogoIcon from "@/public/images/expiryhq/logo.png"
 
 export default function ExpiryHQHero() {
   return (
@@ -30,9 +31,18 @@ export default function ExpiryHQHero() {
           <div className="flex flex-col lg:flex-row items-center">
             {/* Left column */}
             <div className="lg:w-3/5 text-center lg:text-left lg:pr-12">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold mb-6">
-                <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-                100% Offline-First · Zero Cloud Tracking · Material 3
+              <div className="flex items-center gap-4 mb-6 justify-center lg:justify-start">
+                <Image
+                  src={LogoIcon}
+                  width={64}
+                  height={64}
+                  alt="ExpiryHQ Logo"
+                  className="rounded-2xl shadow-md border border-gray-100"
+                />
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                  100% Offline-First · Zero Cloud Tracking
+                </div>
               </div>
 
               <h1
