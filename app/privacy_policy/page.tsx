@@ -5,6 +5,12 @@ const PrivacyPolicy = () => {
   return (
     <div className="mt-24 mb-24 px-6 lg:px-16">
       <main className="max-w-3xl mx-auto bg-white p-8 shadow-lg rounded-lg">
+        <div className="mb-6 p-4 bg-blue-50 border border-blue-200 rounded-lg flex items-center justify-between text-blue-900 text-sm">
+          <span>Looking for the <strong>ExpiryHQ</strong> app privacy policy?</span>
+          <a href="/expiryhq/privacy_policy" className="font-semibold text-blue-700 hover:underline">
+            View ExpiryHQ Policy &rarr;
+          </a>
+        </div>
       <header className="text-center bg-[#1C2D41] text-white py-8 rounded-t-lg">
           <h1 className="text-3xl font-bold">VetScholar App & uacinfo.com - Privacy Policy</h1>
           <p className="mt-2 text-sm">Last Updated: 16-Feb-2025 | Effective Date: 16-Feb-2025</p>

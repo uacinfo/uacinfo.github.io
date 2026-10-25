@@ -76,6 +76,15 @@ export default function MobileMenu() {
             </li>
             <li>
               <Link
+                href="/expiryhq"
+                className="flex font-medium w-full text-gray-600 hover:text-primary-600 py-2"
+                onClick={() => setMobileNavOpen(false)}
+              >
+                ExpiryHQ
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/vetscholar"
                 className="flex font-medium w-full text-gray-600 hover:text-primary-600 py-2"
                 onClick={() => setMobileNavOpen(false)}

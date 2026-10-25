@@ -39,6 +39,14 @@ export default function Footer() {
             <ul className="text-sm">
               <li className="mb-2">
                 <Link
+                  href="/expiryhq"
+                  className="text-gray-600 hover:text-primary-600 transition duration-150 ease-in-out"
+                >
+                  ExpiryHQ
+                </Link>
+              </li>
+              <li className="mb-2">
+                <Link
                   href="/vetscholar"
                   className="text-gray-600 hover:text-primary-600 transition duration-150 ease-in-out"
                 >

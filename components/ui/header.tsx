@@ -43,6 +43,14 @@ export default function Header() {
               </li>
               <li>
                 <Link
+                  href="/expiryhq"
+                  className="font-medium text-gray-600 hover:text-primary-600 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  ExpiryHQ
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/vetscholar"
                   className="font-medium text-gray-600 hover:text-primary-600 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
