@@ -12,33 +12,33 @@ export default function ExpiryHQPrivacyPolicy() {
       <main className="max-w-3xl mx-auto bg-white p-8 shadow-lg rounded-lg">
         <header className="text-center bg-[#1C2D41] text-white py-8 rounded-t-lg">
           <span className="inline-block bg-emerald-500/20 text-emerald-300 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider mb-2">
-            100% Offline & Private
+            Private & Secure
           </span>
           <h1 className="text-3xl font-bold">ExpiryHQ App - Privacy Policy</h1>
           <p className="mt-2 text-sm text-gray-300">Last Updated: October 25, 2026 | Effective Date: October 25, 2026</p>
         </header>
 
         <div className="mt-6 p-4 bg-emerald-50 border border-emerald-200 rounded-lg text-emerald-900 text-sm">
-          <strong>Summary:</strong> ExpiryHQ is a 100% offline-first application. We do not collect, transmit, share, or monetize any of your personal data, inventory items, or usage telemetry. Everything stays exclusively on your device.
+          <strong>Summary:</strong> In its current release, ExpiryHQ operates on-device without requiring user accounts or collecting personal tracking data. All inventory and expiry data is stored locally. If optional cloud synchronization or multi-device accounts are introduced in future releases, this policy will be updated with full disclosure and consent options.
         </div>
 
         <section className="mt-8">
           <h2 className="text-2xl font-semibold text-[#1C2D41]">1. Introduction</h2>
           <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-            ExpiryHQ (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;), developed and published by <strong>UACInfo LLP</strong>, is committed to respecting and protecting your privacy. This Privacy Policy explains how information is handled when you use the ExpiryHQ mobile and web applications.
+            ExpiryHQ (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;), developed and published by <strong>UACInfo LLP</strong>, provides fast, streamlined inventory and expiration date tracking for pharmacies, retail stores, agriculture supply businesses, and households. We are committed to transparency and respecting your data privacy.
           </p>
         </section>
 
         <section className="mt-8">
-          <h2 className="text-2xl font-semibold text-[#1C2D41]">2. Zero Personal Data Collection</h2>
+          <h2 className="text-2xl font-semibold text-[#1C2D41]">2. Current Data Collection: No Personal Data Required</h2>
           <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-            We do not collect any personal information when you use ExpiryHQ:
+            In the current version of ExpiryHQ:
           </p>
           <ul className="mt-3 list-inside list-disc text-lg text-gray-700 space-y-2">
-            <li><strong>No accounts or logins:</strong> You are not required to create an account, register, or provide an email address, phone number, or credentials.</li>
-            <li><strong>No device identifiers:</strong> We do not collect advertising IDs, IMEI numbers, MAC addresses, or IP logs.</li>
-            <li><strong>No location tracking:</strong> We never request or access GPS, coarse location, or Wi-Fi location data.</li>
-            <li><strong>No telemetry or analytics:</strong> We do not track keystrokes, sessions, clicks, or user behavioral metrics.</li>
+            <li><strong>No registration required:</strong> You can use all core tracking features immediately without creating an account or providing an email address, phone number, or credentials.</li>
+            <li><strong>No advertising identifiers:</strong> We do not collect ad tracking IDs, IMEI numbers, or hardware identifiers.</li>
+            <li><strong>No location tracking:</strong> We do not access GPS, coarse location, or Wi-Fi network location data.</li>
+            <li><strong>No behavioral telemetry:</strong> We do not log keystrokes, personal user habits, or behavioral analytics.</li>
           </ul>
         </section>
 
@@ -81,9 +81,12 @@ export default function ExpiryHQPrivacyPolicy() {
         </section>
 
         <section className="mt-8">
-          <h2 className="text-2xl font-semibold text-[#1C2D41]">8. Changes to This Privacy Policy</h2>
+          <h2 className="text-2xl font-semibold text-[#1C2D41]">8. Future Cloud Features & Policy Updates</h2>
           <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-            We may update our Privacy Policy periodically to reflect enhancements or regulatory requirements. Any modifications will be posted to this page with an updated &ldquo;Last Updated&rdquo; date.
+            As ExpiryHQ evolves, we may introduce optional online capabilities such as cloud backup, user accounts, multi-device synchronization, or collaborative team inventory for commercial shops and pharmacies.
+          </p>
+          <p className="mt-3 text-lg text-gray-700 leading-relaxed">
+            If and when these optional features are introduced, this Privacy Policy and relevant in-app consent disclosures will be updated to clearly explain what data is collected, how it is encrypted, and how you can export or delete your data at any time.
           </p>
         </section>
 

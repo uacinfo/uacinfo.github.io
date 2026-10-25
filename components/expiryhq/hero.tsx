@@ -41,7 +41,7 @@ export default function ExpiryHQHero() {
                 />
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold">
                   <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-                  100% Offline-First · Zero Cloud Tracking
+                  Built for Pharmacies, Agri-Supply, Retail & Households
                 </div>
               </div>
 
@@ -49,7 +49,7 @@ export default function ExpiryHQHero() {
                 className="text-4xl md:text-5xl font-extrabold leading-tighter tracking-tighter mb-6 text-gray-900"
                 data-aos="zoom-y-out"
               >
-                Track Expiry Dates with Zero Friction on{" "}
+                Eliminate Stock Expiry Loss with{" "}
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-600 to-teal-500">
                   ExpiryHQ
                 </span>
@@ -57,7 +57,7 @@ export default function ExpiryHQHero() {
               
               <div className="max-w-3xl mx-auto lg:mx-0">
                 <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">
-                  The minimal, lightning-fast expiration date tracker for your groceries, pantry, medicines, warranties, and household essentials. Never waste food or miss a deadline again.
+                  The fast, zero-friction expiration date tracker for retail shops, pharmacies, agriculture supply stores, and household essentials. Start tracking inventory immediately with no complex setup.
                 </p>
 
                 <div

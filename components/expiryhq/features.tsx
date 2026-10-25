@@ -6,8 +6,8 @@ import AddItemScreenshot from "@/public/images/expiryhq/add-item-screenshot.png"
 export default function ExpiryHQFeatures() {
   const features = [
     {
-      title: "100% Offline-First Architecture",
-      description: "Operates entirely offline without requiring network connectivity. Your inventory data is stored safely in your device's sandboxed storage.",
+      title: "Works Offline Anywhere",
+      description: "Reliable in basement stockrooms, rural supply stores, or behind the retail counter without signal drops or network delays.",
       icon: (
         <svg className="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
@@ -51,8 +51,8 @@ export default function ExpiryHQFeatures() {
       ),
     },
     {
-      title: "Zero Tracking & Zero Ads",
-      description: "No forced accounts, no passwords, no email registrations, and zero advertising SDKs. ExpiryHQ is built purely for frictionless productivity.",
+      title: "Instant Setup & Ad-Free",
+      description: "Start logging stock in seconds with zero registration friction. A clean, distraction-free interface built for fast daily operations.",
       icon: (
         <svg className="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -66,10 +66,10 @@ export default function ExpiryHQFeatures() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="text-center pb-16">
           <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">
-            Designed for Pure Simplicity & Privacy
+            Built for Fast Daily Stock Operations
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Everything you need to prevent waste and stay organized, without unnecessary complexity.
+            Everything your pharmacy, supply depot, or household needs to prevent expired goods and eliminate inventory waste.
           </p>
         </div>
 
@@ -102,10 +102,10 @@ export default function ExpiryHQFeatures() {
               Tired of complex date pickers? With ExpiryHQ, one tap on <strong>+3 Days</strong>, <strong>+1 Week</strong>, or <strong>+1 Month</strong> sets the target expiry instantly. You can also pick a custom calendar date whenever needed.
             </p>
             <div className="flex flex-wrap gap-3">
-              <span className="px-3 py-1 bg-gray-100 rounded-lg text-sm text-gray-700 font-medium">Grocery tracking</span>
-              <span className="px-3 py-1 bg-gray-100 rounded-lg text-sm text-gray-700 font-medium">Medicine safety</span>
-              <span className="px-3 py-1 bg-gray-100 rounded-lg text-sm text-gray-700 font-medium">Warranty deadlines</span>
-              <span className="px-3 py-1 bg-gray-100 rounded-lg text-sm text-gray-700 font-medium">Pantry audit</span>
+              <span className="px-3 py-1 bg-gray-100 rounded-lg text-sm text-gray-700 font-medium">Pharmacies & Chemists</span>
+              <span className="px-3 py-1 bg-gray-100 rounded-lg text-sm text-gray-700 font-medium">Agriculture & Seed Stores</span>
+              <span className="px-3 py-1 bg-gray-100 rounded-lg text-sm text-gray-700 font-medium">Retail & Grocery Counters</span>
+              <span className="px-3 py-1 bg-gray-100 rounded-lg text-sm text-gray-700 font-medium">Household & Pantry</span>
             </div>
           </div>
           <div className="lg:w-1/2 flex justify-center">

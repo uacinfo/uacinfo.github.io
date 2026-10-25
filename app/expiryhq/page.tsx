@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'ExpiryHQ - Offline Expiration Date Tracker | UACInfo LLP',
-  description: 'Minimal, offline-first application to track expiration dates of groceries, medicines, and household goods.',
+  title: 'ExpiryHQ - Expiry Tracker for Shops, Pharmacies & Households | UACInfo LLP',
+  description: 'Fast, frictionless expiration date tracker for retail shops, pharmacies, agriculture supply stores, and household inventory.',
 }
 
 import ExpiryHQHero from '@/components/expiryhq/hero'
